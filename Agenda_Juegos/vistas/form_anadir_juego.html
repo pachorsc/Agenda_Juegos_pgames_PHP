@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="my-5">
+        <h1 class="text-center"><span class="text-primary">A</span>ñadir <span class="text-primary">N</span>uevo <span class="text-primary">J</span>uego</h1>
+    </div>
+    <form action="index.php?action=insert_juego" method="post" enctype="multipart/form-data">
+        <label class="form-label" for="nm" >Nombre</label><br>
+        <input class="form-control" type="text" name="nm">
+        <br><label class="form-label" for="plat">plataforma</label><br>
+        <select name="plat">
+            <option value="1">PC</option>
+            <option value="2">Consola</option>
+            <option value="3">Ambas</option>
+        </select>
+        <br>
+        <label class="form-label" for="fch">Fecha de Lanzamiento</label><br>
+        <input class="form-control" type="date" name="fch">
+        <br>
+        <label class="form-label" for="img">Imagen</label><br>
+        <input class="form-control" type="file" name="img">
+        <br>
+        <input class="btn btn-primary" type="submit">
+    </form>
+</div>

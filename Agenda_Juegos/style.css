@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+h1, h2 {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAi_P459XRxf5TnZXZ9g-s-QLqBBTdo0D_qg&s');
+
+  }
+
+  .logo {
+    width: 80px !important;
+  }
